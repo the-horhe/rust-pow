@@ -3,8 +3,13 @@ name = "rust-pow"
 version = "0.1.0"
 edition = "2021"
 
-[dependencies]
-
 [[bin]]
 name = "hello-world"
 path = "src/hello-world/main.rs"
+
+[[bin]]
+name = "guess-game"
+path = "src/guess-game/main.rs"
+
+[dependencies]
+rand = "0.8.5"
