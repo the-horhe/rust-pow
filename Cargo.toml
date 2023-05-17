@@ -11,5 +11,9 @@ path = "src/hello-world/main.rs"
 name = "guess-game"
 path = "src/guess-game/main.rs"
 
+[[bin]]
+name = "n-fib"
+path = "src/n-fib/main.rs"
+
 [dependencies]
 rand = "0.8.5"
