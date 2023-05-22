@@ -15,5 +15,9 @@ path = "src/guess-game/main.rs"
 name = "n-fib"
 path = "src/n-fib/main.rs"
 
+[[bin]]
+name = "structs"
+path = "src/structs/main.rs"
+
 [dependencies]
 rand = "0.8.5"
