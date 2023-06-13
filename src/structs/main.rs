@@ -14,17 +14,13 @@ impl User {
 struct Color(u32, u32, u32);
 
 fn main() {
-
     let user = User {
         email: String::from("user1"),
         password: String::from("pas1"),
         id: 1,
     };
 
-    let user2 = User {
-        id: 2,
-        ..user
-    };
+    let user2 = User { id: 2, ..user };
 
     user2.repr();
 

@@ -19,5 +19,9 @@ path = "src/n-fib/main.rs"
 name = "structs"
 path = "src/structs/main.rs"
 
+[[bin]]
+name = "quicksort"
+path = "src/quicksort/main.rs"
+
 [dependencies]
 rand = "0.8.5"
